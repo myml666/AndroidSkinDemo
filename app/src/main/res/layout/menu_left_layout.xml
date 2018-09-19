@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="start"
+    android:id="@+id/menu_left_layout"
+    android:background="@color/colorAppBg"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="160dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:src="@mipmap/ic_avuser"
+            android:id="@+id/menu_left_layout_img_avuser"
+            android:layout_centerInParent="true"
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_width="70dp"
+            android:text="大奶牛"
+            android:textColor="@color/colorToolbarTitle"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_below="@id/menu_left_layout_img_avuser"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="2dp"
+        android:id="@+id/menu_left_layout_cd_changeskin"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorAppBg"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:background="@drawable/my_module_item_bill_ripple"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_skin"
+                    android:padding="2dp"
+                    android:layout_gravity="center"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="换肤"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

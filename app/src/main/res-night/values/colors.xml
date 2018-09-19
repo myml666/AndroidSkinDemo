@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_night">#90a4ae</color>
+    <color name="colorPrimaryDark_night">#455a64</color>
+    <color name="colorAccent_night">#607d8b</color>
+    <color name="colorToolbarTitle_night">#e6e6e6</color>
+    <color name="colorAppBg_night">#EEEDED</color>
+</resources>
